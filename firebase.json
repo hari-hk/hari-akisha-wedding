@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/hariaki",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
