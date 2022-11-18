@@ -3,20 +3,53 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 80vh 1rem 1rem 1rem;
 
-  h1 {
-    -webkit-filter: invert(1);
-    filter: invert(1);
-  }
+  .card-set {
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    max-width: 300px;
+    overflow: hidden;
 
-  .names {
-    -webkit-filter: invert(1);
-    filter: invert(1);
-    .name {
-      font-size: 3rem;
+    h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      color: #082600;
+      font-weight: 400;
     }
-    .sub {
-      font-size: 2rem;
+
+    .names {
+      color: #082600;
+      text-align: center;
+
+      .name {
+        font-size: 3rem;
+      }
+      .sub {
+        font-size: 2rem;
+      }
+    }
+
+    .location-img {
+      margin-top: 5px;
+      width: 100%;
+      border-radius: 7px;
     }
   }
+}
+.spacer {
+  height: 30px;
+}
+
+.u-c {
+  text-transform: uppercase;
+  margin: 0;
+}
+.b {
+  font-weight: bold !important;
 }
