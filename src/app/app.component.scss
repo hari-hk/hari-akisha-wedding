@@ -1,10 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.bg-image {
+  background-image: url("../assets/bg.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #508a20;
+  background-attachment: fixed;
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .content {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 80vh 1rem 1rem 1rem;
+  padding: 10vh 1rem 1rem 1rem;
 
   .card-set {
     position: relative;
@@ -129,4 +146,9 @@
   100% {
     transform: translateX(100%);
   }
+}
+
+.couple-image {
+  width: 100%;
+  border-radius: 10px;
 }
