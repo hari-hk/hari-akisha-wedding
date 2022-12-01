@@ -14,7 +14,7 @@ export class AppComponent implements AfterViewInit {
     src: ['../assets/Anbil-Avan.mp3'],
     autoplay: true,
     loop: true,
-    volume: 0.2,
+    volume: 0.1,
     onend: function () {
       console.log('Finished!');
     },
