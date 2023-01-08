@@ -8,8 +8,6 @@ import { Howl, Howler } from 'howler';
 })
 export class AppComponent implements AfterViewInit {
   title = 'hariaki';
-  // 8.312607, 77.210299
-
   sound = new Howl({
     src: ['../assets/Anbil-Avan.mp3'],
     autoplay: true,
