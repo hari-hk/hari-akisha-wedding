@@ -3,9 +3,9 @@
 @import url("../styles/heart-animation.scss");
 
 .bg-image {
-  background-image: url("../assets/bg.jpg");
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  background-image: url("../assets/bg-dark.jpg");
+  // filter: blur(4px);
+  // -webkit-filter: blur(4px);
 
   background-position: top center;
   background-size: cover;

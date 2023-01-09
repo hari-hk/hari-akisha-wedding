@@ -10,7 +10,7 @@ export class AppComponent implements AfterViewInit {
   title = 'hariaki';
   sound = new Howl({
     src: ['../assets/Anbil-Avan.mp3'],
-    autoplay: true,
+    autoplay: false,
     loop: true,
     volume: 0.1,
     onend: function () {
@@ -20,7 +20,7 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     setTimeout(() => {
-      this.sound.play();
+      // this.sound.play();
     }, 300);
   }
 
