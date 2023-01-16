@@ -1,0 +1,23 @@
+<ng-container *ngIf="hideTimmer; else elseTemplate">
+    <h4>Thank You for your presence</h4>
+</ng-container>
+<ng-template #elseTemplate>
+    <div class="count-down-timer">
+        <div class="count-down-element">
+            <div class="count">{{countDownTime.days}}</div>
+            <div class="count-text">Days</div>
+        </div>
+        <div class="count-down-element">
+            <div class="count">{{countDownTime.hour}}</div>
+            <div class="count-text">Hour</div>
+        </div>
+        <div class="count-down-element">
+            <div class="count">{{countDownTime.min}}</div>
+            <div class="count-text">Min</div>
+        </div>
+        <div class="count-down-element">
+            <div class="count">{{countDownTime.sec}}</div>
+            <div class="count-text">Sec</div>
+        </div>
+    </div>
+</ng-template>

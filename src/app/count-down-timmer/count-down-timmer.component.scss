@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+
+.count-down-timer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  .count-down-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    font-family: "Orbitron", sans-serif;
+    width: 4rem;
+    .count {
+      font-family: inherit;
+      font-size: 2rem;
+    }
+    .count-text {
+      font-family: inherit;
+      text-transform: uppercase;
+    }
+  }
+}
