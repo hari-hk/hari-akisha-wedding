@@ -21,7 +21,9 @@ export class AppComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     setTimeout(() => {
-      this.sound.play();
+      if (environment.production) {
+        this.sound.play();
+      }
     }, 300);
   }
 
