@@ -11,13 +11,17 @@
     gap: 0.3rem;
     font-family: "Orbitron", sans-serif;
     width: 4rem;
+    color: #796129;
+
     .count {
       font-family: inherit;
       font-size: 2rem;
+      color: inherit;
     }
     .count-text {
       font-family: inherit;
       text-transform: uppercase;
+      color: inherit;
     }
   }
 }

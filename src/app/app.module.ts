@@ -6,15 +6,9 @@ import { AppComponent } from './app.component';
 import { CountDownTimmerComponent } from './count-down-timmer/count-down-timmer.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CountDownTimmerComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, CountDownTimmerComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
