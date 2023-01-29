@@ -3,15 +3,11 @@
 
 .bg-image {
   background-image: url("../assets/bg-dark.jpg");
-  // filter: blur(4px);
-  // -webkit-filter: blur(4px);
-
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #508a20;
   background-attachment: fixed;
-
   height: 100%;
   width: 100%;
   position: fixed;
